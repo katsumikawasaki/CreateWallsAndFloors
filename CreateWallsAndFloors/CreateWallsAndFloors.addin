@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command 壁床の作成</Text>
+    <Description>壁と床を作成するサンプルです</Description>
+    <Assembly>CreateWallsAndFloors.dll</Assembly>
+    <FullClassName>CreateWallsAndFloors.Command</FullClassName>
+    <ClientId>168d2797-1a27-407d-9ace-cfbf328d4aa6</ClientId>
+    <VendorId>com.kawasaki-pe</VendorId>
+    <VendorDescription>Katsumi kawasaki</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application CreateWallsAndFloors</Name>
+    <Assembly>CreateWallsAndFloors.dll</Assembly>
+    <FullClassName>CreateWallsAndFloors.App</FullClassName>
+    <ClientId>c8e567e5-1ead-4a93-aedc-1c11085092e2</ClientId>
+    <VendorId>com.kawasaki-pe</VendorId>
+    <VendorDescription>Katsumi kawasaki</VendorDescription>
+  </AddIn>
+</RevitAddIns>
